@@ -13,4 +13,9 @@ func main() {
 	fmt.Println(control_flow.HitungRata2Switch(x)) // 19.1
 	fmt.Println(control_flow.HitungRata2IfElse(x)) // 19.1
 	fmt.Println(control_flow.HitungPakeWhile(5)) // 8
+
+	control_flow.Pointerrr()
+	control_flow.Structs()
+	control_flow.AdvanceStruct()
+	control_flow.PrintEmployee()
 }
