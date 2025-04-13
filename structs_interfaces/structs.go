@@ -1,10 +1,10 @@
-package control_flow
+package structsinterfaces
 
 import "fmt"
 
 type stack struct {
 	index int
-	data [5]int
+	data  [5]int
 }
 
 func (s *stack) push(k int) {
