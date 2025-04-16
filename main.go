@@ -21,4 +21,5 @@ func main() {
 	control_flow.PrintEmployee()
 	array_slice_maps.MyArray()
 	array_slice_maps.MySlices(1)
+	array_slice_maps.MyMaps()
 }
