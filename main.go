@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	array_slice_maps "stackup.dev/intro-to-golang/arrays_slices_maps"
 	"stackup.dev/intro-to-golang/control_flow"
 	structsinterfaces "stackup.dev/intro-to-golang/structs_interfaces"
 )
@@ -18,4 +19,6 @@ func main() {
 	structsinterfaces.Structs()
 	structsinterfaces.AdvanceStruct()
 	control_flow.PrintEmployee()
+	array_slice_maps.MyArray()
+	array_slice_maps.MySlices(1)
 }
