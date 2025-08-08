@@ -2,7 +2,7 @@ package array_slice_maps
 
 import "fmt"
 
-func MySlices(s int) string{
+func MySlices() {
 
 	/* Define an array containing programming languages */
 	languages := [9]string{
@@ -19,5 +19,4 @@ func MySlices(s int) string{
 	fmt.Printf("modern languages: %v\n", modern)     // modern languages: [Java Python JavaScript Ruby]
 	fmt.Printf("new languages: %v\n", new) 
 
-	return "string"
 }
